@@ -11,6 +11,7 @@
  */
 var generate = function (numRows) {
     let result = [[1]]
+    
     while (result.length < numRows) {
         let len = result.length, lastArr = result[len - 1]
         let i = 0, newArr = [1]
